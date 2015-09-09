@@ -1,0 +1,12 @@
+{
+  "manifest_version":2,
+  "name": "360toBaidu",
+  "version":"0.0.1",
+  "description":"当一个用户通过360搜索时自动将其转成百度搜索结果",
+  "content_scripts": [
+    {
+       "matches": ["http://*.haosou.com/*"],
+       "js":["js/jquery-1.9.0.min.js","js/so.js"]
+    }
+  ]
+}
